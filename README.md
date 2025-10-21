@@ -88,10 +88,12 @@ Suppose you have:
 
 ```
 Movies/
-├── Inception (2010).nfo
-├── Inception (2010).mkv
-├── Interstellar.nfo
-└── Interstellar.mp4
+├── Inception (2010)
+    ├── Inception (2010).nfo
+    ├── Inception (2010).mkv
+├── Interstellar
+    ├── Interstellar.nfo
+    └── Interstellar.mp4
 ```
 
 Running:
