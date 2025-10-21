@@ -26,17 +26,6 @@ It replaces or removes special characters, ensures filenames are filesystem-safe
 
 ---
 
-## 🚀 How to Use
-
-### 1️⃣ Save the script
-Save the following Python file as:
-
-```
-rename_from_nfo.py
-```
-
-in your desired location.
-
 ## 📥 Download & Installation
 
 1. **Download from GitHub**
@@ -65,6 +54,19 @@ in your desired location.
 
 5. **Ready to use!**
   - See usage instructions below.
+
+---
+
+## 🚀 How to Use
+
+### 1️⃣ Save the script
+Save the following Python file as:
+
+```
+rename_from_nfo.py
+```
+
+in your desired location.
 
 ### 2️⃣ Run a dry run
 Run this command to preview what will happen without making changes:
