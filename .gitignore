@@ -1,0 +1,10 @@
+# NFO Renamer
+
+A Python tool to rename movie files using titles from .nfo files. See README.md for details.
+
+## How to use
+1. Clone this repo
+2. Run: `python3 rename_from_nfo.py <movie_folder> --recursive --dry-run`
+
+## License
+MIT License
