@@ -37,6 +37,35 @@ rename_from_nfo.py
 
 in your desired location.
 
+## 📥 Download & Installation
+
+1. **Download from GitHub**
+  - Visit: https://github.com/techiedip/Movie-Renamer-from-NFO
+  - Click the green `Code` button and choose `Download ZIP`, or clone with:
+    ```bash
+    git clone https://github.com/techiedip/Movie-Renamer-from-NFO.git
+    ```
+
+2. **Install Python (if needed)**
+  - Make sure you have Python 3.8 or newer installed:
+    ```bash
+    python3 --version
+    ```
+  - Download from https://www.python.org/downloads/ if required.
+
+3. **(Optional) Create a virtual environment**
+  - Recommended for isolation:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+4. **No dependencies required**
+  - The script uses only Python standard libraries.
+
+5. **Ready to use!**
+  - See usage instructions below.
+
 ### 2️⃣ Run a dry run
 Run this command to preview what will happen without making changes:
 
