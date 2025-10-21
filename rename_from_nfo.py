@@ -99,7 +99,9 @@ def sanitize_title(title: str) -> str:
     """
     t = title.replace(":", "-")
     # Insert space after '-' if followed by an alphabet character
-    t = re.sub(r"-(?=[A-Za-z])", "- ", t)
+    t = re.sub(r"-(?=[A-Za-z0-9])", "- ", t)
+    # Insert space before '-' if preceded by an alphabet character
+    t = re.sub(r"([A-Za-z0-9])-", r"\1 -", t)
     # Some NFOs may include HTML entities - decode common ones (basic)
     t = t.replace("&amp;", "&").replace("&quot;", '"').replace("&#39;", "'")
     # Remove other special characters
